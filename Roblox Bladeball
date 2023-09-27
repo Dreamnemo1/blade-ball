@@ -1,0 +1,20 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("NemoHubBB", "Midnight")
+
+--MAIN
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main")
+
+
+MainSection:NewButton("AutoParry With Calculations", "AutoParry with calculations", function()
+getgenv().visualizer = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/RedCircleBlock"))()
+end)
+
+local Skins = Window:NewTab("Skins")
+local SkinsSection = Skins:NewSection("Skins")
+
+
+SkinsSection:NewButton("Skins", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dreamnemo1/dsadas/main/yep"))()
+end)
